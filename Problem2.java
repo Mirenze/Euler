@@ -15,15 +15,9 @@ public class Problem2 {
     }
 
     public static int calculateSum(int maxFib, List<Integer> fib) {
-        if (maxFib == 1) {
-            return 0;
-        }
-        if (maxFib == 2) {
-            return 2;
-        }
         int current;
-        int sum = 2;
-        int i = 2;
+        int sum = 0;
+        int i = 0;
 
         while (i < fib.size() && (current = fib.get(i)) <= maxFib) {
             if (current % 2 == 0) {
