@@ -22,4 +22,11 @@ public class Problem4Test {
         assertEquals("7777 should return true.", true, myClass.isPalindrome(7777));
         assertEquals("124282421 should return true.", true, myClass.isPalindrome(124282421));
     }
+
+    @Test
+    public void testLargestPalindromeProduct() throws Exception {
+        assertEquals("Range of 10 and 99 should return 9009.", 9009, myClass.largestPalindromeProduct(10, 99));
+        assertEquals("Range of 100 and 999 should return 9009.", 906609, myClass.largestPalindromeProduct(100, 999));
+
+    }
 }
