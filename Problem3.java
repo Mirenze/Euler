@@ -19,7 +19,7 @@ public class Problem3 {
         long largest = 2;
 
         // prime factorization
-        while (factor != 1) {
+        while (factor > 1) {
             for (int i = 2; i <= factor; i++) {
                 if (factor % i == 0) {
                     if (isPrime(i)) {
@@ -35,11 +35,7 @@ public class Problem3 {
 
     // return true if num is prime, false otherwise
     public static boolean isPrime(long num) {
-        if (num == 2) {
-            return true;
-        }
-
-        if (num % 2 == 0 || num <= 1) {
+        if (num % 2 == 0 && num != 2 || num <= 1) {
             return false;
         }
 
