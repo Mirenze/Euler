@@ -4,7 +4,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 /**
- * Created by Mallory on 8/4/2015.
+ * Created by Mirenze on 8/4/2015.
  */
 public class Problem6Test {
     Problem6 myClass;

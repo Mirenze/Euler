@@ -1,5 +1,5 @@
 /**
- * Created by Mallory on 8/4/2015.
+ * Created by Mirenze on 8/4/2015.
  */
 public final class Problem6 {
     public static void main(String[] args) {
